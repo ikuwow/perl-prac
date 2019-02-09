@@ -3,5 +3,9 @@
 use strict;
 use warnings;
 
-print("hello\n");
-print "hello world\n";
+my $message1 = "hello?\n";
+print($message1);
+
+my $message2;
+$message2 = "hello world\n";
+print $message2;
